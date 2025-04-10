@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" style="font-family: 'Whitney Book Regular';background: #090B19;color: #ffffff;--bs-primary: #ED4C67;--bs-primary-rgb: 212,39,91;--bs-secondary: rgba(237,76,103,0.5);--bs-secondary-rgb: 122,197,242;--bs-dark: #090B19;--bs-dark-rgb: 9,11,25;--bs-body-bg: #0f0f0f;">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>Home - Kawaii API | The random Image API for Discord Bots</title>
+<meta name="theme-color" content="#ED4C67">
+<meta name="twitter:description" content="Simple API requests with many output customizations, access to over 1k images and a dashboard with statistics as well as useful information.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://kawaii.red/assets/img/logo.webp">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://kawaii.red/assets/img/logo-round.webp">
+<meta name="twitter:title" content="Home - Kawaii API | The random Image API for Discord Bots">
+<meta name="description" content="Simple API requests with many output customizations, access to over 1k images and a dashboard with statistics as well as useful information.">
+<link rel="icon" type="image/png" sizes="281x281" href="https://kawaii.red/assets/img/logo-round-small.webp">
+<link rel="icon" type="image/png" sizes="281x281" href="https://kawaii.red/assets/img/logo-round-small.webp">
+<link rel="icon" type="image/png" sizes="281x281" href="https://kawaii.red/assets/img/logo-round-small.webp">
+<link rel="icon" type="image/png" sizes="281x281" href="https://kawaii.red/assets/img/logo-round-small.webp">
+<link rel="icon" type="image/png" sizes="281x281" href="https://kawaii.red/assets/img/logo-round-small.webp">
+<link rel="apple-touch-icon" sizes="120x120" href="https://kawaii.red/assets/img/logo-small.webp">
+<link rel="apple-touch-icon" sizes="152x152" href="https://kawaii.red/assets/img/logo-small.webp">
+<link rel="icon" href="https://kawaii.red/assets/img/logo-round.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="https://kawaii.red/assets/img/logo-round.ico" type="image/x-icon" />
+<link rel="manifest" href="https://kawaii.red/manifest.json">
+<link rel="stylesheet" href="https://kawaii.red/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i&amp;display=swap">
+<link rel="stylesheet" href="https://kawaii.red/assets/css/Wandertucker.css">
+<link rel="stylesheet" href="https://kawaii.red/assets/css/Whitney%20Book%20Regular.css">
+<link rel="stylesheet" href="https://kawaii.red/assets/css/Whitney%20Medium.css">
+<link rel="stylesheet" href="https://kawaii.red/assets/fonts/fontawesome-all.min.css">
+<link rel="stylesheet" href="https://kawaii.red/assets/fonts/font-awesome.min.css">
+<link rel="stylesheet" href="https://kawaii.red/assets/fonts/fontawesome5-overrides.min.css">
+<link rel="stylesheet" href="https://kawaii.red/assets/css/main.css">
+<link rel="stylesheet" href="https://kawaii.red/assets/css/main.compiled.css">
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://kawaii.red/"
+      },{
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Information",
+        "item": "https://kawaii.red/information"
+      },{
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Example",
+        "item": "https://kawaii.red/example"
+      },{
+        "@type": "ListItem",
+        "position": 4,
+        "name": "Documentation",
+        "item": "https://kawaii.red/documentation"
+      },{
+        "@type": "ListItem",
+        "position": 5,
+        "name": "Dashboard",
+        "item": "https://kawaii.red/dashboard"
+      },{
+        "@type": "ListItem",
+        "position": 6,
+        "name": "Status",
+        "item": "https://kawaii.red/status"
+      },{
+        "@type": "ListItem",
+        "position": 7,
+        "name": "Support",
+        "item": "https://kawaii.red/support"
+      }]
+    }
+    </script>
+</head>
+<body id="page-top" style="font-family: 'Whitney Book Regular';">
+<div class="alert cookiealert text-center glas">
+<h3 class="text-start">We Use Cookies<br></h3>
+<p style="text-align: left;">Our site uses cookies to serve you better.<br></p><a class="btn btn1 glas acceptcookies" role="button" style="font-size: 18px;">Accept<br></a>
+</div>
+<div class="preloader"><span class="loading-bar"></span></div>
+<div class="background-image-div">
+<div class="base one"></div>
+<div class="base two"></div>
+<div class="base three"></div>
+</div>
+<div id="wrapper" style="z-index: 10;">
+<div class="d-flex flex-column" id="content-wrapper" style="background: var(--bs-body-bg);">
+<div id="content" style="z-index: 1;margin-top: 100px;">
+<nav class="navbar navbar-dark fixed-top off-canvas" data-right-drawer="0" data-open-drawer="0" style="z-index: 800;background: none;backdrop-filter: blur(100px);-webkit-backdrop-filter: blur(100px);display: block;padding-top: 100px;padding-left: 10px;">
+<div class="container flex-column">
+<ul class="navbar-nav me-auto" style="font-size: 25px;">
+<li class="nav-item" data-dismiss="drawer"><a class="nav-link" href="https://kawaii.red/" style="color: rgb(255,255,255);">Home</a></li>
+<li class="nav-item" data-dismiss="drawer"><a class="nav-link" href="https://kawaii.red/information" style="color: rgb(255,255,255);">Information</a></li>
+<li class="nav-item" data-dismiss="drawer"><a class="nav-link" href="https://kawaii.red/documentation" style="color: rgb(255,255,255);">Documentation</a></li>
+<li class="nav-item" data-dismiss="drawer"><a class="nav-link" href="https://kawaii.red/example" style="color: rgb(255,255,255);">Example</a></li>
+<li class="nav-item" data-dismiss="drawer"><a class="nav-link" href="https://kawaii.red/status" style="color: rgb(255,255,255);">Status</a></li>
+<li class="nav-item" data-dismiss="drawer"><a class="nav-link" href="https://kawaii.red/support" style="color: rgb(255,255,255);">Support</a></li>
+<li class="nav-item" data-dismiss="drawer"><a class="nav-link" href="https://kawaii.red/login" style="color: rgb(255,255,255);">Login</a></li>
+</ul>
+</div>
+</nav>
+<nav class="navbar navbar-light navbar-expand-lg fixed-top navigation-clean">
+<div class="container"><a class="navbar-brand d-flex justify-content-center align-items-center" href="https://kawaii.red">
+<div class="sidebar-brand-icon"><img class="rounded-circle" src="https://kawaii.red/assets/img/logo-small.webp" style="width: 50px;height: 50px;" alt="The Website Logo"></div>
+<div class="sidebar-brand-text mx-3" style="font-size: 32px;"><span class="text-white" style="font-family: Wandertucker;font-size: 38px;line-height: 20px;">Kawaii API</span></div>
+</a><button class="btn navbar-toggler" id="open-nav-button" aria-label="Navbar Toggle" type="button" data-open="drawer" style="font-size: 25px;color: rgba(255,255,255,0.8);"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-list-task" style="font-size: 30px;">
+<path fill-rule="evenodd" d="M2 2.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5H2zM3 3H2v1h1V3z"></path>
+<path d="M5 3.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM5.5 7a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9zm0 4a.5.5 0 0 0 0 1h9a.5.5 0 0 0 0-1h-9z"></path>
+<path fill-rule="evenodd" d="M1.5 7a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H2a.5.5 0 0 1-.5-.5V7zM2 7h1v1H2V7zm0 3.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5H2zm1 .5H2v1h1v-1z"></path>
+</svg></button><button class="btn navbar-toggler" id="close-nav-button" type="button" style="font-size: 25px;display: none;color: rgba(255,255,255,0.8);" data-dismiss="drawer"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-x-lg" style="font-size: 30px;">
+<path fill-rule="evenodd" d="M13.854 2.146a.5.5 0 0 1 0 .708l-11 11a.5.5 0 0 1-.708-.708l11-11a.5.5 0 0 1 .708 0Z"></path>
+<path fill-rule="evenodd" d="M2.146 2.146a.5.5 0 0 0 0 .708l11 11a.5.5 0 0 0 .708-.708l-11-11a.5.5 0 0 0-.708 0Z"></path>
+</svg></button>
+<div class="collapse navbar-collapse" id="navcol-2">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item link-animation" style="margin: 0px 12px;"><a class="nav-link" href="https://kawaii.red/" style="color: rgb(255,255,255);">Home</a></li>
+<li class="nav-item link-animation" style="margin: 0px 12px;"><a class="nav-link active" href="https://kawaii.red/information" style="color: rgb(255,255,255);">Information</a></li>
+<li class="nav-item link-animation" style="margin: 0px 12px;"><a class="nav-link" href="https://kawaii.red/documentation" style="color: rgb(255,255,255);">Documentation<br></a></li>
+<li class="nav-item link-animation" style="margin: 0px 12px;"><a class="nav-link" href="https://kawaii.red/example" style="color: rgb(255,255,255);">Example</a></li>
+<li class="nav-item link-animation" style="margin: 0px 12px;"><a class="nav-link active" href="https://kawaii.red/status" style="color: rgb(255,255,255);" target="_blank">Status</a></li>
+<li class="nav-item link-animation" style="margin: 0px 12px;"><a class="nav-link active" href="https://kawaii.red/support" style="color: rgb(255,255,255);">Support</a></li>
+<li class="nav-item link-animation" style="margin: 0px 12px;"><a class="nav-link active" href="https://kawaii.red/login" style="color: rgb(255,255,255);">Login<img class="rounded-circle" src="https://kawaii.red/assets/img/avatar.png" style="width: 25px;height: 25px;margin-left: 10px;" alt="Placeholder for the userprofile picture"></a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="container-md">
+<div class="row" style="padding-bottom: 150px;padding-top: 50px;">
+<div class="col my-auto col-lg-5 col-xl-6 col-main" style="padding-top: 25px;">
+<h1 class="text-white" style="max-width: 500px;font-family: Wandertucker;">The random Image API for Discord Bots</h1>
+<p class="text-muted" style="max-width: 500px;font-size: 18px;">Easily make API requests with various output customization options, access a collection of over 1k images, and use a user-friendly dashboard for statistics and helpful information.</p>
+<h4 class="text-white" style="padding-top: 10px;">Start using the API:</h4><a class="btn btn1 glas button-glas" role="button" href="https://kawaii.red/dashboard"><strong>Dashboard</strong></a><a class="btn btn1 glas button-glas" role="button" href="https://kawaii.red/documentation"><strong>Documentation</strong></a>
+</div>
+<div class="col col-lg-7 col-xl-6 col-box" style="padding-top: 0px;min-width: 33%;color: rgb(133, 135, 150);"><div class="container">
+<div class="scene">
+<div class="webpack-cube">
+<div class="outer-cube">
+<div class="face face-top"></div>
+<div class="face face-bottom"></div>
+<div class="face face-left"></div>
+<div class="face face-right"></div>
+<div class="face face-front"></div>
+<div class="face face-back"></div>
+</div>
+<div class="inner-cube">
+<div class="face face-top"></div>
+<div class="face face-bottom"></div>
+<div class="face face-left"></div>
+<div class="face face-right"></div>
+<div class="face face-front"></div>
+<div class="face face-back"></div>
+</div>
+</div>
+<div class="shadows-outer-container">
+<div class="shadow-outer"></div>
+</div>
+<div class="shadows-inner-container">
+<div class="shadow-inner"></div>
+</div>
+</div>
+</div></div>
+</div>
+<div class="row">
+<div class="col text-center text-white" style="padding-bottom: 20px;">
+<h1>Information</h1>
+<hr>
+</div>
+</div>
+<div class="row" style="padding-bottom: 150px;">
+<div class="col">
+<p class="text-center text-muted" style="font-size: 18px;padding-right: 10%;padding-left: 10%;">Designed primarily for Discord bots, the Kawaii API is a random image API that offers a diverse range of anime images, providing ample material to create various commands. Utilizing this API brings the notable benefit of constant updates with fresh images, eliminating the need for manual collection. Moreover, these images undergo regular quality checks, ensuring optimal resolution for swift loading and suitable sizing, ideal for seamless integration within Discord.</p>
+</div>
+</div>
+<div class="row">
+<div class="col text-center text-white" style="padding-bottom: 20px;">
+<h1>Statistics<br></h1>
+<hr>
+</div>
+</div>
+<div class="row" style="padding-bottom: 150px;">
+<div class="col-md-4 text-center" style="min-width: 100px;"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x" style="color: rgba(237,76,103,0.5);border-style: none;"></i><i class="fas fa-users fa-stack-1x fa-inverse glas" style="border-radius: 50%;"></i></span>
+<h4 class="text-break text-white section-heading" style="font-family: 'Whitney Book Regular';font-size: 25px;margin-top: 8px;">914</h4>
+<p class="text-break text-muted" style="padding-right: 10px;padding-left: 10px;font-family: 'Whitney Book Regular';font-size: 18px;line-height: 30px;">Users</p>
+</div>
+<div class="col-md-4 text-center" style="min-width: 100px;"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x" style="color: rgba(237,76,103,0.5);border-style: none;"></i><i class="fas fa-server fa-stack-1x fa-inverse glas" style="border-radius: 50%;"></i></span>
+<h4 class="text-break text-white section-heading" style="font-family: 'Whitney Book Regular';font-size: 25px;margin-top: 8px;">1,163,938</h4>
+<p class="text-break text-muted" style="padding-right: 10px;padding-left: 10px;font-family: 'Whitney Book Regular';font-size: 18px;line-height: 30px;">Requests<br></p>
+</div>
+<div class="col-md-4 text-center" style="min-width: 100px;"><span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x" style="color: rgba(237,76,103,0.5);border-style: none;"></i><i class="fas fa-images fa-stack-1x fa-inverse glas" style="border-radius: 50%;"></i></span>
+<h4 class="text-break text-white section-heading" style="font-family: 'Whitney Book Regular';font-size: 25px;margin-top: 8px;">1,258</h4>
+<p class="text-break text-muted" style="padding-right: 10px;padding-left: 10px;font-family: 'Whitney Book Regular';font-size: 18px;line-height: 30px;">Images</p>
+</div>
+</div>
+<div class="row">
+<div class="col text-center text-white" style="padding-bottom: 20px;">
+<h1>Examples</h1>
+<hr>
+</div>
+</div>
+<div class="row" style="padding-bottom: 20px;">
+<div class="col m-auto col-lg-6 col-xl-5">
+<div class="card" style="background: none;border: none;">
+<div class="card-body card-1">
+<h2 class="text-white">Roleplay Commands<br></h2>
+<p class="text-muted" style="font-size: 18px;margin-bottom: 0px;">Leverage a vast collection of diverse gifs to offer a wide range of captivating roleplay commands through your bot. With an abundance of animated visuals at your disposal, users can dive into an expansive realm of imaginative interactions. Enhance the interactive experience by integrating a multitude of gifs, allowing your bot to provide an extensive selection of roleplay options, sparking creativity and enjoyment for users.</p>
+</div>
+</div>
+</div>
+<div class="col col-lg-6 col-xl-7 col-embed" style="padding-top: 20px;min-width: 50%;">
+<div class="card shadow py-2 glas" style="margin-bottom: 9px;border-left: 5px solid rgba(237,76,103,0.5);">
+<div class="card-body card-body1" style="padding: 10px;padding-top: 10px;padding-bottom: 5px;">
+<div class="row align-items-center no-gutters">
+<div class="col me-2">
+<div class="text-dark h5 mb-0" style="padding-bottom: 3%;"><span class="text-white" style="font-family: 'Whitney Medium';font-size: 25px;">Kawaii API hugs someone<br></span></div>
+</div>
+</div><img src="https://api.kawaii.red/gif/hug/hug4.gif" style="width: 100%;height: 100%;border-radius: 5px;cursor: pointer;" alt="A random anime hug gif to demonstrate the api" loading="lazy">
+</div>
+</div>
+</div>
+</div>
+<div class="row" style="padding-bottom: 150px;">
+<div class="col col-lg-6 col-xl-7 col-embed" style="padding-top: 20px;min-width: 50%;">
+<div class="card shadow py-2 glas" style="margin-bottom: 9px;border-left: 5px solid rgba(237,76,103,0.5);">
+<div class="card-body card-body1" style="padding: 10px;padding-top: 10px;padding-bottom: 5px;">
+<div class="row align-items-center no-gutters">
+<div class="col me-2">
+<div class="text-dark h5 mb-0" style="padding-bottom: 3%;"><span class="text-white" style="font-family: 'Whitney Medium';font-size: 25px;">Welcome new member</span></div>
+</div>
+</div><img src="https://api.kawaii.red/gif/wave/wave17.gif" style="width: 100%;height: 100%;border-radius: 5px;cursor: pointer;" alt="A random anime hug gif to demonstrate the api" loading="lazy">
+</div>
+</div>
+</div>
+<div class="col m-auto col-lg-6 col-xl-5">
+<div class="card" style="background: none;border: none;">
+<div class="card-body card-2">
+<h2 class="text-white">Welcome Message<br></h2>
+<p class="text-muted" style="font-size: 18px;margin-bottom: 0px;">Enhance the welcoming experience for new users by incorporating a random wave gif into your messages. This delightful addition brings a touch of variety and excitement to your greetings, ensuring each user receives a unique and engaging welcome. Let the animated waves create a warm and inviting atmosphere, making your users feel appreciated and valued right from the start.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col text-center text-white" style="padding-bottom: 20px;">
+<h1>Steps<br></h1>
+<hr>
+</div>
+</div>
+<div class="row text-white" style="padding-bottom: 150px;">
+<div class="col-md-6 text-center m-auto col-lg-5 col-xl-4">
+<div class="container" style="min-width: 300px;">
+<div class="card" style="background: rgba(0,0,0,0);border-style: none;">
+<div class="face face1 glas">
+<div class="content"><i class="fas fa-lightbulb" style="font-size: 100px;"></i>
+<h2 style="margin-bottom: 0px;padding-top: 10px;">Get An Idea<br></h2>
+</div>
+</div>
+<div class="face face2 glas">
+<div class="content" style="margin-top: 10px;">
+<p class="text-muted Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at." style="font-size: 18px;">Begin by exploring the provided example bot, and consider how you can leverage the API for your own purposes.</p><a class="btn btn1 button-glas glas" role="button" href="https://kawaii.red/example" style="margin-top: 12px;margin-bottom: 12px;"><strong>Example</strong></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 text-center m-auto col-lg-5 col-xl-4">
+<div class="container" style="min-width: 300px;">
+<div class="card" style="background: rgba(0,0,0,0);border-style: none;">
+<div class="face face1 glas">
+<div class="content"><i class="fas fa-book" style="font-size: 100px;"></i>
+<h2 style="margin-bottom: 0px;padding-top: 10px;">Read The Docs<br></h2>
+</div>
+</div>
+<div class="face face2 glas">
+<div class="content" style="margin-top: 10px;">
+<p class="text-muted Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at." style="font-size: 18px;">Review our documentation and see how user-friendly our API is. Take a quick look to get an idea how it works.</p><a class="btn btn1 glas button-glas" role="button" href="https://kawaii.red/documentation" style="margin-top: 12px;margin-bottom: 12px;"><strong>Documentation</strong></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6 text-center m-auto col-lg-5 col-xl-4">
+<div class="container" style="min-width: 300px;">
+<div class="card" style="background: rgba(0,0,0,0);border-style: none;">
+<div class="face face1 glas">
+<div class="content"><i class="fas fa-code" style="font-size: 100px;"></i>
+<h2 style="padding-top: 10px;margin-bottom: 0px;">Implement The Idea<br></h2>
+</div>
+</div>
+<div class="face face2 glas">
+<div class="content" style="margin-top: 10px;">
+<p class="text-muted Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at." style="font-size: 18px;">To implement the idea in your project, log into the dashboard where you will find the API token along with some statistics.</p><a class="btn btn1 glas button-glas" role="button" href="https://kawaii.red/dashboard" style="margin-top: 12px;margin-bottom: 12px;"><strong>Dashboard</strong></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="page-footer" style="padding-top: 50px;padding-bottom: 50px;">
+<div class="container" style="padding-right: 25px;padding-left: 25px;">
+<div class="row" style="padding-top: 35px;margin-left: -10px;margin-right: -10px;border-top: 1px solid var(--bs-secondary);border-bottom: 1px solid var(--bs-secondary);">
+<div class="col-6 col-md-3">
+<h4 class="text-white">AnimeRose</h4>
+<ul class="text-muted footer-links">
+<li><a href="https://animerose.de/" target="_blank">Home</a></li>
+<li><a href="https://animerose.de/informationen" target="_blank">Information</a></li>
+<li><a href="https://animerose.de/statistiken" target="_blank">Statistics</a></li>
+<li><a href="https://animerose.de/gameserver" target="_blank">Gameserver</a></li>
+<li><a href="https://animerose.de/commands" target="_blank">Commands</a></li>
+</ul>
+</div>
+<div class="col-6 col-md-3">
+<h4 class="text-white">Sasaki</h4>
+<ul class="text-muted footer-links">
+<li><a href="https://sasaki.error44.dev/">Website</a></li>
+<li><a href="https://sasaki.error44.dev/invite">Bot Invite</a></li>
+<li><a href="https://sasaki.error44.dev/information">Information<br></a></li>
+<li><a href="https://sasaki.error44.dev/commands/">Commands<br></a></li>
+<li><a href="https://sasaki.error44.dev/dashboard">Dashboard</a></li>
+</ul>
+</div>
+<div class="col-6 col-md-3">
+<h4 class="text-white">Kawaii API</h4>
+<ul class="text-muted footer-links">
+<li><a href="https://kawaii.red/" target="_blank">Website</a></li>
+<li><a href="https://kawaii.red/info" target="_blank">Information</a></li>
+<li><a href="https://kawaii.red/example" target="_blank">Example</a></li>
+<li><a href="https://kawaii.red/docs" target="_blank">Documentation<br></a></li>
+<li><a href="https://kawaii.red/dashboard" target="_blank">Dashboard</a></li>
+</ul>
+</div>
+<div class="col-6 col-md-3">
+<h4 class="text-white">Error44</h4>
+<ul class="text-muted footer-links">
+<li><a href="https://error44.dev/" target="_blank">Website</a></li>
+</ul>
+<h4 class="text-white">Contact</h4>
+<ul class="text-muted footer-links">
+<li><a href="https://error44.dev/support" target="_blank">Discord</a></li>
+<li><a href="/cdn-cgi/l/email-protection#7b080e0b0b14090f3b1e090914094f4f551f1e0d">E-Mail</a></li>
+</ul>
+</div>
+<p class="text-muted" style="padding-left: 15px;font-size: 12px;padding-right: 15px;">Hosted and managed by <span class="magic-text"><a href="https://cloudcord.dev/">CloudCord</a></span></p>
+</div>
+<div class="footer-legal" style="padding-top: 15px;">
+<div class="d-inline-block copyright">
+<p class="text-white d-inline-block" style="font-size: 14px;">Kawaii API © 2021-2023. All rights reserved.</p>
+</div>
+</div>
+</div>
+</footer>
+</div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="https://kawaii.red/assets/js/jquery.min.js" type="aaa9f9d61e1eda3cf1c8065f-text/javascript"></script>
+<script src="https://kawaii.red/assets/bootstrap/js/bootstrap.min.js" type="aaa9f9d61e1eda3cf1c8065f-text/javascript"></script>
+<script src="https://kawaii.red/assets/js/bs-init.js" type="aaa9f9d61e1eda3cf1c8065f-text/javascript"></script>
+<script src="https://kawaii.red/assets/js/main.js" type="aaa9f9d61e1eda3cf1c8065f-text/javascript"></script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="aaa9f9d61e1eda3cf1c8065f-|49" defer></script></body>
+</html>

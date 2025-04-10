@@ -1,0 +1,19 @@
+{
+    "port": 1234,
+    "folders": { "gif": "gifs" },
+    "categories": [
+        "alarm",
+        "ask",
+        "bite",
+        "clap",
+        "cry",
+        "dance",
+        "happy",
+        "hug",
+        "kill",
+        "kiss",
+        "pat",
+        "slap",
+        "random"
+    ]
+}
